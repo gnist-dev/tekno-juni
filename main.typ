@@ -13,4 +13,7 @@
 = Tekno-juni
 
 
-
+#include "1-workshop.typ"
+#include "2-workshop.typ"
+#include "3-workshop.typ"
+#include "4-workshop.typ"
