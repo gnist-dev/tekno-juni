@@ -89,7 +89,7 @@ Hemmeligholdelsen af information
 == Fysisk sikkerhed og _threat actors_
 #align(center,
   figure(
-    image("xkcd-security.png"),
+    image("images/xkcd-security.png"),
     caption: [xkcd, Security. https://xkcd.com/538/]
   )
 )
