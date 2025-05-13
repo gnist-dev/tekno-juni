@@ -3,10 +3,13 @@
 
 == OPSec
 
-_Operations security_
+_Operations security_ kan tænkes som en række af overvejelser
+og praksisser som man gøre sig for at forsøge at garantere
+(informations-)sikkerheden af en aktivitet overfor fjendtlige aktørere.
 
 
 - Forsvars strategier og metoder
+- Trussels modeller, _threat actors_, praksisser og protokoller
 
 == Hvorfor kan det være relevant for dig?
 
@@ -20,7 +23,7 @@ _Operations security_
 Data akkumulation og profil opbygning
 
 
-== Trussel modeller
+== Trussels modeller - din, min, vores
 
 - *hvad* skal jeg holde hemmeligt?
 - *hvem* skal jeg holde det hemmeligt fra?
@@ -34,7 +37,7 @@ Data akkumulation og profil opbygning
   interval: 5,
 
   events: (
-    event(year: 0, title: "Brugervenlighed"),
+    event(year: 0, title: ["_Brugervenlighed_"]),
     event(year: 10, title: "Sikkerhed"),
     
   )
@@ -93,6 +96,25 @@ Hemmeligholdelsen af information
     caption: [xkcd, Security. https://xkcd.com/538/]
   )
 )
+
+== _Retention_#footnote[Bevaring, opretholdelse, tilbageholdelse.] praksis
+
+... mellem bevaring og at slette. Et spænd mellem datahoarding og ingenting.
+
+- Sikkerhedshorisonter over tid.
+- Data følsomhed og brugbarhed.#footnote[Både for sig selv og for trussels aktørere.]
+
+
+== Øvelse - Kortlægning
+
+Snak sammen i grupper og kortlæg følgende for jeres gruppe:
+
+- Hvad skal I holde hemmeligt?
+  - Er noget information vigtigere end andet?
+- Hvem er jeres _threats actors_?
+- Hvordan kan I holde det hemmeligt?
+  - hvilke værktøjer og praksisser?
+
 
 == Kildehenvisning
 
