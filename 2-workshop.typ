@@ -59,3 +59,24 @@ i den forstand at de er åbne for modifikation og tilpasning.]
 - Linux- og BSD-distributioner
 - "_Demokratisering_" henover de sidste 10 år.
 
+
+== Øvelse - At boot fra en USB
+
+Planen for idag:
+
+- Boot en linux distribution fra en USB
+- Gennemgang af det fagre nye operativ system
+
+#align(right, image("images/usb.jpg", width: 6.5cm))
+
+// == Et virtuelt laboratorie
+== (Intermediate) øvelse - Et virtuelt laboratorie
+
+Virtualbox er en software pakke for at håndtere og bruge _virtual
+machines_.//#footnote[Virtual machines ofte forkortes til VM.] Trinene:
+
+- Opsætning af en virtual machine
+- Installation af en linux distribution
+- Gennemgang af det fagre nye operativ system
+
+#align(right, image("images/virtualmachines.jpg", width: 7.5cm))
