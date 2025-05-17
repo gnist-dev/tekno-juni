@@ -61,7 +61,9 @@ Data akkumulation og profil opbygning
 
 == Enkryption
 
-Hemmeligholdelsen af information
+Hemmeligholdelsen af information ved at konvertere information fra _plain
+text_ til _cipher text_, således at kun de tiltænkte kan få adgang
+til informtionen ved dekryption.
 
 
 #align(center)[
@@ -95,6 +97,15 @@ Hemmeligholdelsen af information
     image("images/xkcd-security.png"),
     caption: [xkcd, Security. https://xkcd.com/538/]
   )
+)
+
+== _No silver bullets_
+
+#align(center,
+  // figure(
+    image("images/silverbullet.jpeg", width: 13cm),
+    // caption: []
+  // )
 )
 
 == _Retention_#footnote[Bevaring, opretholdelse, tilbageholdelse.] praksis
