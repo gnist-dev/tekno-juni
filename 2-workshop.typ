@@ -59,6 +59,8 @@ i den forstand at de er åbne for modifikation og tilpasning.]
 - Linux- og BSD-distributioner
 - "_Demokratisering_" henover de sidste 10 år.
 
+Hvad det åbner for af muligheder:
+- Mulighed for et bedre ressource forbrug af hardware.
 
 == Øvelse - At boot fra en USB
 

@@ -127,6 +127,6 @@ Snak sammen i grupper og kortlæg følgende for jeres gruppe:
   - hvilke værktøjer og praksisser?
 
 
-== Kildehenvisning
+// == Kildehenvisning
 
-#bibliography("refs.bib", style: "chicago-notes")
+// #bibliography("refs.bib", style: "chicago-notes")
