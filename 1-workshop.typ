@@ -15,9 +15,11 @@ og praksisser som man gøre sig for at forsøge at garantere
 
 
 - Omgørelsen af Roe V. Wade og cyklus-app
-- Aktivistiske og politisk engagment kræver
+- Aktivistisk og politisk engagment gavner af
   muligheden for privatliv og undgåelsen
   af overvågning
+- Du vil have kontrol over din egen data#footnote[Eks. kan der være
+ting som du synes ikke rager andre end dine venner.]
 
 
 Data akkumulation og profil opbygning
@@ -27,7 +29,7 @@ Data akkumulation og profil opbygning
 
 - *hvad* skal jeg holde hemmeligt?
 - *hvem* skal jeg holde det hemmeligt fra?
-- *hvilke* risikoer er jeg villig til at tage?
+- *hvilke* risikoer/ulejligheder er jeg villig til at tage?
 
 
 
@@ -85,7 +87,17 @@ mod man-in-the-middle angreb.] men det som man skal holde øje med er
 om det krypteret _end-to-end_.
 
 - Fra afsender til modtager enkrypteret hele vejen.
-- Værktøjs eksempel: GPG og email
+- Værktøjs eksempel:
+    - GPG oven på email
+    - signal, simplex, briar
+
+
+#align(center,
+  figure(
+    image("images/wikipedia-End-to-End_Encryption.png", height: 12cm, ),
+    caption: [Wikipedia's illustration af e2ee.]
+  )
+)
 
 == Data
 
@@ -102,6 +114,21 @@ om det krypteret _end-to-end_.
   )
 ]
 
+== Metadata
+
+Data om anden data. I tilfælde af tjenester med en central
+aktør eks. signal og protonmail:
+
+- Tidspunkter, IP-addresser, modtager og afsender
+
+Minimere mængden af metadata:
+
+- Brug af overlay netværk (eks. Tor, VPN)
+- Tjenester uden krav for konto oprettelse
+- Peer-to-peer eller multi-node systemer#footnote[Her er det et tilfælde
+af at gøre det svære for en enkelt observatør at danne sig et overblik,
+hvis flere noder er i _kahoots_ eller samarbejder kan de få adgang
+til at danne sig en metadata profil som fra centrale tjenester.]
 
 == Fysisk sikkerhed og _threat actors_
 #align(center,
@@ -118,6 +145,20 @@ om det krypteret _end-to-end_.
     image("images/silverbullet.jpeg", width: 13cm),
     // caption: []
   // )
+)
+
+== Når uheldet er ude
+
+#align(center,
+  table(
+    columns: 2,
+    table.header([*Uheld*], [*Plastre*]),
+    [Data leaks ved en service], [e2ee], 
+    [Zero day], [Sandboxing],
+    [Fysisk konfiskation], [Enkrypterede backups, sletningspraksis],
+    [Internet shutdowns], [Radio, LoRa, Bluetooth],
+    [Backdoors], [...]
+  )
 )
 
 == _Retention_#footnote[Bevaring, opretholdelse, tilbageholdelse.] praksis
@@ -146,8 +187,9 @@ er gode værktøjer hertil.]
 == Kommunikations kanaler
 
 - Hvor mange?
-  - Single-point of failure kontra distribueret risiko
+  - _Single-point of failure_ kontra distribueret risiko
 - Hvad slags? 
+  - officielle, hemmelige, chat#footnote[Om det eks. er single-lane eller multi-lane chat-tjenester.], message-boards, etc.?
 - Backup planer i tilfælde af blackout?
 
 
@@ -171,13 +213,26 @@ som inspiration.
 Online ressourcer:
 
 - Electronic Frontier Foundation's Surveillance Self-Defense (SSD)#footnote[https://ssd.eff.org]
+- The Tor Project's hjemmeside og support-FAQ#footnote[https://support.torproject.org/]
 
-Næste gang: Gentag kontrollen
+Vær opmærksom på ikke at få _security fatigue_ og at falde i "OPSec"
+rabbit-holes på youtube.#footnote[At blive bevidst om sikkerheds
+hensyn skal helst ikke føre til at man bliver udbrændt eller irrationel paranoia
+som ødelægger ens dag.]
+
+== Næste gang: Gentag kontrollen
 
 - Right to repair og ejerskab
 - Klima konsekvenser
 - Åbne operativsystemer som løsning#footnote[Medbring gerne en USB-nøgle og en bærbar til workshop'en.]
 
+#align(
+  right,
+  table(
+    stroke: none,
+    image("images/github-qr.png", height: 4cm), [#text("https://github.com/gnist-dev/tekno-juni", 14pt)]
+  )
+)
 
 // == Kildehenvisning
 
